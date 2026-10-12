@@ -8,6 +8,7 @@ Problems where my first idea was wrong, I got stuck, or I needed help. Clean sol
 |------|---------|--------|------|---------|---------------|------------|------------|
 | 2026-10-11 | [4A - Watermelon](https://codeforces.com/problemset/problem/4/A) | 800 | math, brute force | alone | First thought: any even `w` works. Forgot `w = 2` fails, since both parts must be positive and even (1 + 1 is odd) | Answer is YES only if `w > 2` and `w % 2 == 0` | 2026-10-18 |
 | 2026-10-11 | [71A - Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | 800 | strings, implementation | editorial | Needed a tutorial to get started (edit: what exactly was unclear?) | If `len(word) > 10`: `word[0] + str(len(word) - 2) + word[-1]`, else print as is | 2026-10-18 |
+| 2026-10-12 | [231A - Team](https://codeforces.com/problemset/problem/231/A) | 800 | greedy, brute force, implementation | alone | (edit: anything you missed or got stuck on?) | For each problem, read the 3 values and count it if their sum is >= 2 | 2026-10-19 |
 
 ## Recurring weak spots
 
